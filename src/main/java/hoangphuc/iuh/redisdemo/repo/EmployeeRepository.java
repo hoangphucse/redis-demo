@@ -35,7 +35,7 @@ public class EmployeeRepository {
 
 	public void saveEmployee(Employee employee) {
 
-		hashOperations.put("EMPLOYEE", employee.getId(), employee);
+		setOperations.add("EMPLOYEE",employee);
 	}
 
 
